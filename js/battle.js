@@ -3,9 +3,9 @@ let enterKey = 0;
 let enemyHp = 45;
 
 let audioElem;
-const aBgm = "https://orangedays00.github.io/gs_dev18_02/music/katana-slash5.mp3";
-const caBgm = "https://orangedays00.github.io/gs_dev18_02/music/katana-slash2.mp3";
-const eaBgm = "https://orangedays00.github.io/gs_dev18_02/music/punch-heavy2.mp3";
+const aBgm = "https://orangedays00.github.io/dq1/music/katana-slash5.mp3";
+const caBgm = "https://orangedays00.github.io/dq1/music/katana-slash2.mp3";
+const eaBgm = "https://orangedays00.github.io/dq1/music/punch-heavy2.mp3";
 const playAttackBgm = (filename) => {
     audioElem = new Audio();
     audioElem.src = filename;
